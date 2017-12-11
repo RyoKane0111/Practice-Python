@@ -20,9 +20,95 @@ print("a is 1")
 
 
 a = 1
+
 if a == 1:
     
 print("a is 1")
 else:
     
 print("a is not 1")
+
+#if ～ elif ～ else (もし～なら、それ以外で～なら、それ以外なら)
+
+a = 1
+
+if a == 1:
+
+    print("a is 1")
+
+elif a == 2:
+
+    print("a is 2")
+
+elif a == 3:
+
+    print("a is 3")
+
+else:
+
+    print("a is not 1 2 3")
+
+
+
+#aに1を格納していたならば "a is 1"を
+
+#2を格納していたならば"a is 2"を
+
+#3を格納していたならば"a is 3"を
+
+#それ以外ならば"a is not 1 2 3"を出力する
+
+
+#and (かつ)　or(または)　not(ではない)
+
+#複雑を組み合わせて複雑な条件を作ることができる
+
+a = 1
+
+b = ['a','b','c']
+
+
+
+if a == 1 and not len(b) == 2:
+
+    print("おｋ")
+
+else:
+
+    print("は？")
+#もし a が 1 であってかつ、 b の要素数が 2 ではないなら "おｋ"、違うなら "は？" を返す
+
+
+#必ずfalseを返す値
+
+ # false
+
+ # 0として認識できる値 (0や0.0)
+
+ #空のリスト、タプル、ディクショナリ、セット
+
+ #None
+
+#諸説あり
+
+
+
+
+#None型
+
+ #None型は「値が存在しない」ことを示す
+
+ #Noneか否かを判定するために is None または is not None を使う
+
+
+x = None
+if x is None:
+
+    print("x is None")
+
+
+
+y = False
+if y is not None:
+
+    print("y is not None")
